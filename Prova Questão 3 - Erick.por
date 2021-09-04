@@ -6,13 +6,13 @@ programa
 	
 	funcao inicio()
 	{
-		const inteiro tamanho = 10
-		cadeia vNomes[tamanho]
-		real vNota1[tamanho]
-		real vNota2[tamanho]  
-		real vMedias[tamanho]
+		const inteiro t = 10
+		cadeia vNomes[t]
+		real vNota1[t]
+		real vNota2[t]  
+		real vMedias[t]
 
-		para(inteiro l=0; l<tamanho; l++){
+		para(inteiro l=0; l<t; l++){
 			real soma = 0.0
 			escreva("Informe o nome do aluno ", l+1,": ")
 			leia(vNomes[l])
@@ -42,7 +42,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 898; 
+ * @POSICAO-CURSOR = 364; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
