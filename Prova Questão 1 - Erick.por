@@ -8,7 +8,7 @@ programa
 	inclua biblioteca Tipos --> tp
 	funcao inicio()
 	{
-		inteiro num1, num2
+		inteiro numero1, numero2
 		real resultado
 		caracter sn = '0'
 		cadeia tecla
@@ -16,21 +16,21 @@ programa
 
 		faca{
 			escreva("Informe um número: ")
-			leia(num1)
+			leia(numero1)
 			limpa()
 			escreva("Informe outro número (maior que 0): ")
-			leia(num2)
+			leia(numero2)
 			limpa()
 
-			se(num2 <= 0){
+			se(numero2 <= 0){
 				escreva("ERRO. O segundo número deve ser maior que zero. Pressione uma tecla para voltar: ")
 				leia(tecla)
 				limpa()
-			}senao se(num2>0){
+			}senao se(numero2>0){
 
-			resultado = tp.inteiro_para_real(num1) / tp.inteiro_para_real(num2)
+			resultado = tp.inteiro_para_real(numero1) / tp.inteiro_para_real(numero2)
 	
-			escreva(num1, " / ", num2, " = ", mat.arredondar(resultado, 2))
+			escreva(numero1, " / ", numero2, " = ", mat.arredondar(resultado, 2))
 	
 			escreva("\n\nDeseja calcular outra divisão? S/N\n")
 			leia(sn)
@@ -45,7 +45,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1091; 
+ * @POSICAO-CURSOR = 1145; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
